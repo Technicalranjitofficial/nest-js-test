@@ -1,10 +1,10 @@
 {
   "name": "nestjs-test-app",
   "version": "1.0.0",
-  "main": "dist/src/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/src/main.js",
+    "start": "node dist/main.js",
     "start:dev": "ts-node -r tsconfig-paths/register src/main.ts"
   },
   "keywords": [],
